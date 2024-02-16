@@ -1,0 +1,1029 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.33f1 (ee5a2aa03ab2) revision 15620650'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7579 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\UnityHub\2021.3.33f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/PRU---Group-5
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52265
+Successfully changed project path to: D:/PRU---Group-5
+D:/PRU---Group-5
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [6872] Host "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 175615445 [EditorId] 175615445 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [6872] Host "[IP] 192.168.0.107 [Port] 0 [Flags] 2 [Guid] 175615445 [EditorId] 175615445 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 199.29 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.33f1 (ee5a2aa03ab2)
+[Subsystems] Discovering subsystems at path D:/UnityHub/2021.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/PRU---Group-5/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Radeon RX 5300M (ID=0x7340)
+    Vendor:   ATI
+    VRAM:     3031 MB
+    Driver:   26.20.14030.2002
+Initialize mono
+Mono path[0] = 'D:/UnityHub/2021.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'D:/UnityHub/2021.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/UnityHub/2021.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56096
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/UnityHub/2021.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003253 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 165.42 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.847 seconds
+Domain Reload Profiling:
+	ReloadAssembly (848ms)
+		BeginReloadAssembly (147ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (607ms)
+			LoadAssemblies (147ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (125ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (35ms)
+			SetupLoadedEditorAssemblies (403ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (166ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (173ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006893 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 178.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.522 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2523ms)
+		BeginReloadAssembly (220ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (2179ms)
+			LoadAssemblies (298ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (305ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (86ms)
+			SetupLoadedEditorAssemblies (1520ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (179ms)
+				BeforeProcessingInitializeOnLoad (158ms)
+				ProcessInitializeOnLoadAttributes (1130ms)
+				ProcessInitializeOnLoadMethodAttributes (47ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 2.08 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3832 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (46.3 KB). Loaded Objects now: 4290.
+Memory consumption went from 151.0 MB to 150.9 MB.
+Total: 6.479100 ms (FindLiveObjects: 0.650500 ms CreateObjectMapping: 0.381500 ms MarkObjects: 5.243700 ms  DeleteObjects: 0.199800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 802383.961847 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Prefabs/Props_free/Medieval_props_free_0.prefab
+  artifactKey: Guid(72fbaef77546dd1498e07955db8bc4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Prefabs/Props_free/Medieval_props_free_0.prefab using Guid(72fbaef77546dd1498e07955db8bc4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b10510326255a87d28b8591b3d26b89') in 0.292635 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Prefabs/Props_free/Medieval_props_free_11.prefab
+  artifactKey: Guid(d74fca2a20f3b9a4cbd82b9ff4ba2891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Prefabs/Props_free/Medieval_props_free_11.prefab using Guid(d74fca2a20f3b9a4cbd82b9ff4ba2891) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb5c3671d1dcfb2ac0cfee986ab9d74') in 0.030217 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Prefabs/Props_free/Medieval_props_free_17.prefab
+  artifactKey: Guid(00d91d3ed31c0374a879d29df69e584c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Prefabs/Props_free/Medieval_props_free_17.prefab using Guid(00d91d3ed31c0374a879d29df69e584c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d3109028ef3ae578144c7c0757758f6') in 0.034975 seconds 
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/palettes/Medieval_pixel_art_tileset_free.prefab
+  artifactKey: Guid(24d7ac66bf388d14186f825aca992a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/palettes/Medieval_pixel_art_tileset_free.prefab using Guid(24d7ac66bf388d14186f825aca992a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '754ba0a67e755d24d10528e2900397b5') in 1.153764 seconds 
+Number of asset objects unloaded after import = 371
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006593 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 2.44 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.084 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2085ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (68ms)
+		EndReloadAssembly (1726ms)
+			LoadAssemblies (203ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (1168ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (1014ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.88 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3820 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (21.9 KB). Loaded Objects now: 4301.
+Memory consumption went from 154.2 MB to 154.2 MB.
+Total: 5.262600 ms (FindLiveObjects: 0.442700 ms CreateObjectMapping: 0.385800 ms MarkObjects: 4.354200 ms  DeleteObjects: 0.078500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 321.925929 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Textures/Medieval_tiles_free2.png
+  artifactKey: Guid(cf57b3e7835b02e4493371d9bc259b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Textures/Medieval_tiles_free2.png using Guid(cf57b3e7835b02e4493371d9bc259b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b69eb9592d5f082a5c8e790e06cbb8a') in 0.438722 seconds 
+Number of asset objects unloaded after import = 182
+========================================================================
+Received Import Request.
+  Time since last request: 110.376897 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_1.asset
+  artifactKey: Guid(00fe28a97a714714ba7d64796c54617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_1.asset using Guid(00fe28a97a714714ba7d64796c54617e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '377c6a9262567aa94863f230bec9e137') in 0.035880 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_4.asset
+  artifactKey: Guid(171f86f8edb27b94bb438bc33e86bdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_4.asset using Guid(171f86f8edb27b94bb438bc33e86bdc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30760c737bace7c5da1c2037132dd437') in 0.023771 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_30.asset
+  artifactKey: Guid(3ca2bd8a728e7974385b6d5baa7945f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_30.asset using Guid(3ca2bd8a728e7974385b6d5baa7945f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa17c395b9ba06c541d74a9eb02e693') in 0.025166 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_28.asset
+  artifactKey: Guid(f1bcaf2a57ee8b743a9dd0f7d8d27aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_28.asset using Guid(f1bcaf2a57ee8b743a9dd0f7d8d27aa5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2cb08d21da766fd0d1599af0359a44') in 0.032497 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_6.asset
+  artifactKey: Guid(c6036000667b5934d818717a2318de69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_6.asset using Guid(c6036000667b5934d818717a2318de69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '705986d8e41847ff3117b4ad62c0f083') in 0.024754 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_24.asset
+  artifactKey: Guid(3ba78f7ac22c9d84caac47bf2347cb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_24.asset using Guid(3ba78f7ac22c9d84caac47bf2347cb4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d28d6d68a451e3954e5d7c36a69112e') in 0.024319 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_40.asset
+  artifactKey: Guid(0c613769e6d22c04cb0c20f59c3160ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_40.asset using Guid(0c613769e6d22c04cb0c20f59c3160ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c717afb56c0f663582340789a8890323') in 0.023529 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_34.asset
+  artifactKey: Guid(c5ad727bbcad46240b1d37ecf3f275f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_34.asset using Guid(c5ad727bbcad46240b1d37ecf3f275f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5300c6757744b2bd3e9749a5b559dbf') in 0.023642 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_12.asset
+  artifactKey: Guid(c5d5c0047362956438d3faa1d935620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_12.asset using Guid(c5d5c0047362956438d3faa1d935620b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a4ef1a4ea960cfa2c331bcfaa65cae') in 0.022386 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_13.asset
+  artifactKey: Guid(6ac5fee16c2e8da4d91c8ad5aab85514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_13.asset using Guid(6ac5fee16c2e8da4d91c8ad5aab85514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa5e1abfbeacf8ac3748fac9db4a1bde') in 0.026498 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_29.asset
+  artifactKey: Guid(0fae4d02d118d244c858d0ea12fb2d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_29.asset using Guid(0fae4d02d118d244c858d0ea12fb2d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd7dd44c5a42e92ceb01c324c990271') in 0.022971 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_32.asset
+  artifactKey: Guid(b9eda2a54a9f40348804c9aaabe17b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_32.asset using Guid(b9eda2a54a9f40348804c9aaabe17b1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b67e5d4c3b0467b4e1c56fba815d6075') in 0.026342 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_35.asset
+  artifactKey: Guid(75ac9449cb30b084f837aa903efca74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_35.asset using Guid(75ac9449cb30b084f837aa903efca74b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a174954ef2865187bee540fb07aecc4') in 0.023055 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_33.asset
+  artifactKey: Guid(4d39f938b384d774589f5eec56572f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_33.asset using Guid(4d39f938b384d774589f5eec56572f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ced88bfa823891a0a41030514f53ff8f') in 0.022092 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_7.asset
+  artifactKey: Guid(0dbd2c7dd43603c4f8d08d7964404ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_7.asset using Guid(0dbd2c7dd43603c4f8d08d7964404ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d90d622ca721bb9269e2f7eb64aa997') in 0.022271 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_23.asset
+  artifactKey: Guid(706d8307a11b2f24cbc2b2d304cc16f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_23.asset using Guid(706d8307a11b2f24cbc2b2d304cc16f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5607d9634379cc92206ee802018877') in 0.024550 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_9.asset
+  artifactKey: Guid(8cbb1fc886e2cf04083457e2b390e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_9.asset using Guid(8cbb1fc886e2cf04083457e2b390e43b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa33770b87088d01839b427837176bc0') in 0.024423 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_15.asset
+  artifactKey: Guid(e21a8a830346f7c47937317e47317e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_15.asset using Guid(e21a8a830346f7c47937317e47317e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '696b8723ca8c5660edb8cd6e4f7e4299') in 0.022588 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_16.asset
+  artifactKey: Guid(c7e104a15f92b094ca3f320a387f4bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_16.asset using Guid(c7e104a15f92b094ca3f320a387f4bf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '899438275a7c357317fd886fa7a29f67') in 0.022055 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_27.asset
+  artifactKey: Guid(e54df89b4f95dd74ba08f64cdf6af519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_27.asset using Guid(e54df89b4f95dd74ba08f64cdf6af519) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2947d503705cce3bc9f59e82af3c25') in 0.024711 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_31.asset
+  artifactKey: Guid(384bd6f8a294d504db2f6dcd946cfc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_31.asset using Guid(384bd6f8a294d504db2f6dcd946cfc84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65e1cf56cb62029837bbeb7771879ca') in 0.021012 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 344.790852 seconds.
+  path: Assets/Scenes/Scene 3 - Secret Castle.unity
+  artifactKey: Guid(78ea218f1b598304eb05edad48318ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Scene 3 - Secret Castle.unity using Guid(78ea218f1b598304eb05edad48318ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f673657077f4aeee3682f2c3eae5369') in 0.003246 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.717615 seconds.
+  path: Assets/Scenes/Scene 3 - Secret Castle.unity
+  artifactKey: Guid(78ea218f1b598304eb05edad48318ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scenes/Scene 3 - Secret Castle.unity using Guid(78ea218f1b598304eb05edad48318ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa70af70db8e758de754f50b6d5205ce') in 0.002727 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5.599120 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Scenes/demo_scene_FREE.unity
+  artifactKey: Guid(f2120731c167b44499fb4a0263fa8368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Scenes/demo_scene_FREE.unity using Guid(f2120731c167b44499fb4a0263fa8368) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '822be1957bfc7c55e64f5076b2beeebb') in 0.010090 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1289.940189 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_41.asset
+  artifactKey: Guid(fb9912924f933524d95c2a67110c04de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_41.asset using Guid(fb9912924f933524d95c2a67110c04de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57d2287dbd7b0a9d6215ed584841ff27') in 0.034434 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_45.asset
+  artifactKey: Guid(3128955341263c74090c006ed71470a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_45.asset using Guid(3128955341263c74090c006ed71470a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93b53f365a9b09bed4f2128dd14f2ddc') in 0.033531 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_50.asset
+  artifactKey: Guid(a4bb22a71934f524cb9bfbfdc56c7bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_50.asset using Guid(a4bb22a71934f524cb9bfbfdc56c7bc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9e44baba69fd95660a8a4dc60168b4') in 0.022642 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_55.asset
+  artifactKey: Guid(c9bc746670b28ec418142d49023fbecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_55.asset using Guid(c9bc746670b28ec418142d49023fbecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80f33dcc23dc4e9b6d09d3c139cb9d2') in 0.024749 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_53.asset
+  artifactKey: Guid(f329e299f14bcfb49a756b3f099187e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_53.asset using Guid(f329e299f14bcfb49a756b3f099187e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69be1ff2ffe95d0ed30c509c56cc143f') in 0.021937 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_71.asset
+  artifactKey: Guid(6f7bf8ecc85caa640989089f95e2ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_71.asset using Guid(6f7bf8ecc85caa640989089f95e2ec2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a37876911ef8a3d0cf8741633d1321ee') in 0.023803 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_72.asset
+  artifactKey: Guid(2f7bf868b7625964f99d392577b74060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_72.asset using Guid(2f7bf868b7625964f99d392577b74060) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '747ed397e877c476ccbed123d3213611') in 0.023284 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_78.asset
+  artifactKey: Guid(311007bdaf19e0244bd2217cbe0d9645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_78.asset using Guid(311007bdaf19e0244bd2217cbe0d9645) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91daea375ff6f4107555bb23df0e3abe') in 0.023104 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_79.asset
+  artifactKey: Guid(5ff0c1793623d4d40807e8945cb109a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_79.asset using Guid(5ff0c1793623d4d40807e8945cb109a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1d49fc17abadab87920d3db894bfc1') in 0.025849 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_59.asset
+  artifactKey: Guid(2a6ed7fa312b0e444b75b3d388a30bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_59.asset using Guid(2a6ed7fa312b0e444b75b3d388a30bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c174d15933575f8fc4687c02c1e70c') in 0.019682 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_60.asset
+  artifactKey: Guid(aa3f6a82a6124f74ab6a46e72846b500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_60.asset using Guid(aa3f6a82a6124f74ab6a46e72846b500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c1709fc4782829508592acf938d2bed') in 0.023270 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_52.asset
+  artifactKey: Guid(c9ed40586f9a4c14b91c068d3541384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_52.asset using Guid(c9ed40586f9a4c14b91c068d3541384c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a34b84881ff2138d650dd97347da188e') in 0.023052 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_57.asset
+  artifactKey: Guid(adebb42c4b9514746b250d606bc847d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_57.asset using Guid(adebb42c4b9514746b250d606bc847d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf132920e627a9ac0658c599ad54adfe') in 0.021285 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_43.asset
+  artifactKey: Guid(40157bb7c4b726343b1e8ea873df3f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_43.asset using Guid(40157bb7c4b726343b1e8ea873df3f16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2c3b7d0bb9b8b78fde96c9ef81410e') in 0.022022 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_67.asset
+  artifactKey: Guid(48739b254deb5b84888af6fd0e3fafc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_67.asset using Guid(48739b254deb5b84888af6fd0e3fafc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7cef082ded191b0637f3661f1dbe708') in 0.024538 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_90.asset
+  artifactKey: Guid(255eae3bf797af24bb0ed0670ff4d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_90.asset using Guid(255eae3bf797af24bb0ed0670ff4d797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d99457be384e01be3c11554fa779735') in 0.021368 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_91.asset
+  artifactKey: Guid(5ad159fe974c77a4bad038a286c53d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_91.asset using Guid(5ad159fe974c77a4bad038a286c53d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd332a52c30fbb8106cb720f8e2ac8a2e') in 0.029326 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_103.asset
+  artifactKey: Guid(d358db5499a17b54da0b7541e73aad5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_103.asset using Guid(d358db5499a17b54da0b7541e73aad5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735102b72ac10e555979d3d816fa5d27') in 0.028309 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_98.asset
+  artifactKey: Guid(bb584ce50cd305949b9bc0c108467129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_98.asset using Guid(bb584ce50cd305949b9bc0c108467129) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0069307839d68ae7bc9aa8e4f83deec1') in 0.020762 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_120.asset
+  artifactKey: Guid(d37828d89c32b364e9f028131f68ef7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_120.asset using Guid(d37828d89c32b364e9f028131f68ef7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8fc522fb51dd9662f2c8d3ceab09367') in 0.025901 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_113.asset
+  artifactKey: Guid(dc3f66d233574ae409780b730a934931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_113.asset using Guid(dc3f66d233574ae409780b730a934931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dd18c1dd2e81e41adb2e9763272d3e') in 0.025953 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_100.asset
+  artifactKey: Guid(5551bb9f09e2c484db806c77d898b831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_100.asset using Guid(5551bb9f09e2c484db806c77d898b831) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b08736a3bd86261ed7a6618107db610') in 0.023457 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_87.asset
+  artifactKey: Guid(fa37831e8939b64439d7e1b25c3bc824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_87.asset using Guid(fa37831e8939b64439d7e1b25c3bc824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04651151914b64fcf64d4b273e7c5fc1') in 0.025407 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_97.asset
+  artifactKey: Guid(78e61841b3a727140835283c3dbbec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_97.asset using Guid(78e61841b3a727140835283c3dbbec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80153f010e79093c267d18d4b29220c3') in 0.024024 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_68.asset
+  artifactKey: Guid(961d20cb835a8a84197d9362cd9fcddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_68.asset using Guid(961d20cb835a8a84197d9362cd9fcddb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7440fb035cdaef81e42c8d192590034e') in 0.023974 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000157 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_48.asset
+  artifactKey: Guid(7f36776e1b185bd479fe5d20e2e23995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_48.asset using Guid(7f36776e1b185bd479fe5d20e2e23995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c90c2379fd190ae2006fb116f1d8f3e') in 0.025004 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_75.asset
+  artifactKey: Guid(164fae5121ce95c42951976fe626e194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_75.asset using Guid(164fae5121ce95c42951976fe626e194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10c0152e3b286ede52721b29409ee90a') in 0.027938 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_51.asset
+  artifactKey: Guid(4f7b4c99fffee0a40876fadafdf9fcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_51.asset using Guid(4f7b4c99fffee0a40876fadafdf9fcec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b80582499695dfca31c84014250272e') in 0.027282 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_101.asset
+  artifactKey: Guid(a7ae61f4b99e86740bdf4297d9e25b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_101.asset using Guid(a7ae61f4b99e86740bdf4297d9e25b47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8244f975f1d99bbb7aa30446eba86355') in 0.025072 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_92.asset
+  artifactKey: Guid(e718d46dbbb67674fb5579fe6e979b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_92.asset using Guid(e718d46dbbb67674fb5579fe6e979b64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e533cc9ad454a61a8c807194c0a9c97e') in 0.021912 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_99.asset
+  artifactKey: Guid(c04fa706db18f354e973f5bf23f16f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_99.asset using Guid(c04fa706db18f354e973f5bf23f16f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79449f0ffc1791aaf4a6d237ca2b36de') in 0.023112 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_85.asset
+  artifactKey: Guid(727ee8fd8cdc7ea4ebbc3c59e527904d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_85.asset using Guid(727ee8fd8cdc7ea4ebbc3c59e527904d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93fd370610f2dcf2b2f7315e82ca544') in 0.025048 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_114.asset
+  artifactKey: Guid(6b132860677b2ef48a1e580e539ad8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_114.asset using Guid(6b132860677b2ef48a1e580e539ad8df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7b86c4a33277c13eb32477112fc5696') in 0.025809 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000120 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_89.asset
+  artifactKey: Guid(a41c5be3fa5d77d47a53d8dae4eca2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_89.asset using Guid(a41c5be3fa5d77d47a53d8dae4eca2a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83d76ad3c4d7a59798cee8dc1d01217') in 0.026401 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_64.asset
+  artifactKey: Guid(44deb446fe8ddff42899a201ef75789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_64.asset using Guid(44deb446fe8ddff42899a201ef75789a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5017f38330f6f445d3687169e655838a') in 0.022462 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_63.asset
+  artifactKey: Guid(9a8aaef3a28be2649baf921162d62da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_63.asset using Guid(9a8aaef3a28be2649baf921162d62da1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dd1508c6242e2f490d08a344e970be6') in 0.025517 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_47.asset
+  artifactKey: Guid(d6dcffd7ba5598f498736d5eef96c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_47.asset using Guid(d6dcffd7ba5598f498736d5eef96c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07fd6ae5cb5d2011751be0e60ba18af') in 0.023704 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_46.asset
+  artifactKey: Guid(2268a5d94b519824fbdf5db5d3eb0cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_46.asset using Guid(2268a5d94b519824fbdf5db5d3eb0cba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a8f74715aee44db733d53d323a5335b') in 0.024042 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_70.asset
+  artifactKey: Guid(bffde621c5c2ba544ab421bf55b9ff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_70.asset using Guid(bffde621c5c2ba544ab421bf55b9ff59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2174ce9200baea46d34e3a34ee3af2f4') in 0.025492 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_102.asset
+  artifactKey: Guid(0bb988223add60444a10f3dc3b09f484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_102.asset using Guid(0bb988223add60444a10f3dc3b09f484) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df399905fedb76e4385bff6afad57842') in 0.021626 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_111.asset
+  artifactKey: Guid(7822fd69407e377479774b422528aba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_111.asset using Guid(7822fd69407e377479774b422528aba3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68870c5da69ca41d621b4668621a398') in 0.022843 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_61.asset
+  artifactKey: Guid(1f5de28909e9756469cb72e199333498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_61.asset using Guid(1f5de28909e9756469cb72e199333498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59e384574807b4bafa238a50a939fd45') in 0.020349 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.079933 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_121.asset
+  artifactKey: Guid(3bc8684c8bcf8ae4fa089767112fbd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_121.asset using Guid(3bc8684c8bcf8ae4fa089767112fbd7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85400b75512aac2aedf5cfa59dca564a') in 0.024868 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_123.asset
+  artifactKey: Guid(2a434a3097ca6154eaf91a067180f2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_123.asset using Guid(2a434a3097ca6154eaf91a067180f2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da7c29381ba641b67b40aa15009eb743') in 0.021021 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_128.asset
+  artifactKey: Guid(eef859e546aa4e344829c5d95ad2eb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_128.asset using Guid(eef859e546aa4e344829c5d95ad2eb16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27268d0dedb80ea1ad1045baf4700a6e') in 0.024455 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_124.asset
+  artifactKey: Guid(65c19bed8280195498348ebf482db9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_124.asset using Guid(65c19bed8280195498348ebf482db9a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '628cbf0aa61dfc2561c558b5c8710a58') in 0.025000 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_126.asset
+  artifactKey: Guid(ef4054ce9b9759d49a5c16d381221590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_126.asset using Guid(ef4054ce9b9759d49a5c16d381221590) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feca24929ad7c5e3d37903c5c75ea30e') in 0.025910 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.002690 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_131.asset
+  artifactKey: Guid(13aa7ade8e3b9bf4ea6cd47eee0db525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_131.asset using Guid(13aa7ade8e3b9bf4ea6cd47eee0db525) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21b90fa47f0320bf3aa44a55064d4f62') in 0.030432 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_139.asset
+  artifactKey: Guid(26da7370ea254854c8713603352bdf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_139.asset using Guid(26da7370ea254854c8713603352bdf1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f917a595085fb764eef4ef0b7a13c093') in 0.025077 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_133.asset
+  artifactKey: Guid(fdbaf32fb853b8c49b6fce7cb3e1b66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_133.asset using Guid(fdbaf32fb853b8c49b6fce7cb3e1b66d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6fe802a32c94ba256cf71b74f044a6f') in 0.024174 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_137.asset
+  artifactKey: Guid(fb7d81765c8cdb049a71dacb2483712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_137.asset using Guid(fb7d81765c8cdb049a71dacb2483712e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5e260c111d66c36637400d20901aad') in 0.021718 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_135.asset
+  artifactKey: Guid(950abedb3825fcf45be89c918f686dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_135.asset using Guid(950abedb3825fcf45be89c918f686dc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702e1766fa3d87cf417dae64352ea5bf') in 0.021951 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.878850 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_141.asset
+  artifactKey: Guid(7132df73d3b7c064a99bfd90180b547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_141.asset using Guid(7132df73d3b7c064a99bfd90180b547c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '527c289f418b90b2c84d7e4bd5a71517') in 0.024511 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_147.asset
+  artifactKey: Guid(2f64576086942ad4b8a4b22acb0fe2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_147.asset using Guid(2f64576086942ad4b8a4b22acb0fe2c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46c9d908e059075694ac23f0035b264') in 0.020500 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_157.asset
+  artifactKey: Guid(5afcfd647aaa0b04f8b184668eac4994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_157.asset using Guid(5afcfd647aaa0b04f8b184668eac4994) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee200c5c63d4fecd73a8d76f285844e') in 0.022343 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_159.asset
+  artifactKey: Guid(f9caf0d40f289fc418ea78791d2a7794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_159.asset using Guid(f9caf0d40f289fc418ea78791d2a7794) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58b02ee2b3c640fac2c75b3841664947') in 0.020929 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_143.asset
+  artifactKey: Guid(0408d3241447c144c88d54a94743bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_143.asset using Guid(0408d3241447c144c88d54a94743bc80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a9fd45695813b07111dc2cfa40b8ef') in 0.021508 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_169.asset
+  artifactKey: Guid(d20a04a5ee2b93d48ba5ed0b7e8162a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_169.asset using Guid(d20a04a5ee2b93d48ba5ed0b7e8162a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d0d19f0e86859f196d6513ecad497c') in 0.020670 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_165.asset
+  artifactKey: Guid(abda9aa6300cb6f41b158d099eca5d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_165.asset using Guid(abda9aa6300cb6f41b158d099eca5d4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c35f2a8099be105f331cdfd0a790541') in 0.022384 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_166.asset
+  artifactKey: Guid(f17fd0e108b390a43aa8382cdc077f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_166.asset using Guid(f17fd0e108b390a43aa8382cdc077f46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5103ded194d0dcbd77abd0a69248f7f') in 0.020559 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_170.asset
+  artifactKey: Guid(4c2ab8d1b414b78428c36d5f26d2ed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_170.asset using Guid(4c2ab8d1b414b78428c36d5f26d2ed83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '137c830dbd9163b20e39b62e676f9e0e') in 0.021234 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_152.asset
+  artifactKey: Guid(5f1ec2df8efff4a42905f989f12d1a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_152.asset using Guid(5f1ec2df8efff4a42905f989f12d1a3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83ef55df206ed87d093d0d6e81867094') in 0.023970 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_155.asset
+  artifactKey: Guid(fa17457a5ccc7d746bdad9e715199991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_155.asset using Guid(fa17457a5ccc7d746bdad9e715199991) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f23c7f3b34e0d717367a93505493a38') in 0.024577 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_148.asset
+  artifactKey: Guid(bb0127e67c3d70b4687690b8981470b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_148.asset using Guid(bb0127e67c3d70b4687690b8981470b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88de184af21bc7ac3c220d8dcad0a965') in 0.021283 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_153.asset
+  artifactKey: Guid(016dd1fa05139b84bb19f6093b8d47ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_153.asset using Guid(016dd1fa05139b84bb19f6093b8d47ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb32ca2602319ac4569a96991161358e') in 0.024609 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_163.asset
+  artifactKey: Guid(61cbf282f89f81847a4713719f690a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_163.asset using Guid(61cbf282f89f81847a4713719f690a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3399210feb65f507545d512ab6f99451') in 0.024404 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_158.asset
+  artifactKey: Guid(7e323e0ffcafaba4bb57fbf6191bc3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_158.asset using Guid(7e323e0ffcafaba4bb57fbf6191bc3f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216f67b90357ea92c32a1c66af4014de') in 0.024275 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.030284 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_171.asset
+  artifactKey: Guid(c9234576a8dbe3e40837e14fa696b93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_171.asset using Guid(c9234576a8dbe3e40837e14fa696b93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db97837f051ea1d9eb5db3b79702dad2') in 0.023540 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_175.asset
+  artifactKey: Guid(475983c3644ce514aba920048826bd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_175.asset using Guid(475983c3644ce514aba920048826bd09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9c9f13a7cccec33e61beee6bf2f920') in 0.021239 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_179.asset
+  artifactKey: Guid(dbb1ea24c2001c6418e572bdb9fe54b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_179.asset using Guid(dbb1ea24c2001c6418e572bdb9fe54b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c1828f0e57e69ea754ca03e4ef89b4f') in 0.023937 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_174.asset
+  artifactKey: Guid(c9eb2fa7107207b49a9e21ac9ddfb5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Assets Packages/Backgrounds - Tiles/Secret Castle/Tiles_free/Medieval_tiles_free2_174.asset using Guid(c9eb2fa7107207b49a9e21ac9ddfb5d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc3e13fd74a3f4eefedc7287f8d6571b') in 0.022312 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
