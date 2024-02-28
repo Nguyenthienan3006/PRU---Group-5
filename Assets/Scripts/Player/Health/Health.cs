@@ -9,6 +9,7 @@ public class Health : MonoBehaviour
     public float currentHealth { get; private set; }
     private Animator anim;
     private bool dead;
+    private Rigidbody2D rb;
 
     [Header("iFrames Properties")]
     [SerializeField] private float iFramesDuration;
@@ -28,6 +29,7 @@ public class Health : MonoBehaviour
         currentHealth = startingHealth;
         anim = GetComponent<Animator>();
         spriteRend = GetComponent<SpriteRenderer>();
+        rb = GetComponent<Rigidbody2D>();
     }
     public void TakeDamage(float _damage)
     {
@@ -38,7 +40,7 @@ public class Health : MonoBehaviour
         {
             anim.SetTrigger("hurt");
             StartCoroutine(Invunerability());
-            SoundManager.instance.PlaySound(hurtSound);
+            //SoundManager.instance.PlaySound(hurtSound);
         }
         else
         {
@@ -49,10 +51,11 @@ public class Health : MonoBehaviour
                     component.enabled = false;
 
                 anim.SetBool("grounded", true);
+                rb.bodyType = RigidbodyType2D.Static;
                 anim.SetTrigger("die");
 
                 dead = true;
-                SoundManager.instance.PlaySound(deathSound);
+                //SoundManager.instance.PlaySound(deathSound);
             }
         }
     }
