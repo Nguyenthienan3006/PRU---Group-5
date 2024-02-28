@@ -58,14 +58,14 @@ public class HeroKnight : MonoBehaviour {
         if (!m_grounded && m_groundSensor.State())
         {
             m_grounded = true;
-            m_animator.SetBool("Grounded", m_grounded);
+            m_animator.SetBool("grounded", m_grounded);
         }
 
         //Check if character just started falling
         if (m_grounded && !m_groundSensor.State())
         {
             m_grounded = false;
-            m_animator.SetBool("Grounded", m_grounded);
+            m_animator.SetBool("grounded", m_grounded);
         }
 
         // -- Handle input and movement --
@@ -100,12 +100,12 @@ public class HeroKnight : MonoBehaviour {
         if (Input.GetKeyDown("e") && !m_rolling)
         {
             m_animator.SetBool("noBlood", m_noBlood);
-            m_animator.SetTrigger("Death");
+            m_animator.SetTrigger("die");
         }
 
         //Hurt
         else if (Input.GetKeyDown("q") && !m_rolling)
-            m_animator.SetTrigger("Hurt");
+            m_animator.SetTrigger("hurt");
 
         //Attack
         else if(Input.GetMouseButtonDown(0) && m_timeSinceAttack > 0.25f && !m_rolling)
@@ -151,7 +151,7 @@ public class HeroKnight : MonoBehaviour {
         {
             m_animator.SetTrigger("Jump");
             m_grounded = false;
-            m_animator.SetBool("Grounded", m_grounded);
+            m_animator.SetBool("grounded", m_grounded);
             m_body2d.velocity = new Vector2(m_body2d.velocity.x, m_jumpForce);
             m_groundSensor.Disable(0.2f);
         }
