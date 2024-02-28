@@ -40,14 +40,14 @@ public class Health : MonoBehaviour
         {
             anim.SetTrigger("hurt");
             StartCoroutine(Invunerability());
-            //SoundManager.instance.PlaySound(hurtSound);
+            SoundManager.instance.PlaySound(hurtSound);
         }
         else
         {
             if (!dead)
             {
                 //anim.SetBool("grounded", true);
-                //rb.bodyType = RigidbodyType2D.Static;
+                rb.bodyType = RigidbodyType2D.Static;
                 anim.SetTrigger("die");
                 
                 //Deactivate all attached component classes
@@ -55,7 +55,7 @@ public class Health : MonoBehaviour
                     component.enabled = false;              
                 
                 dead = true;
-                //SoundManager.instance.PlaySound(deathSound);
+                SoundManager.instance.PlaySound(deathSound);
             }
         }
     }
@@ -90,6 +90,7 @@ public class Health : MonoBehaviour
         anim.Play("Idle");
         StartCoroutine(Invunerability());
         dead = false;
+        rb.bodyType = RigidbodyType2D.Dynamic;
 
         //Activate all attached component classes
         foreach (Behaviour component in components)

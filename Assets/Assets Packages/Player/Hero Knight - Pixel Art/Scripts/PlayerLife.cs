@@ -17,8 +17,8 @@ public class PlayerLife : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Trap"))
         {
-            m_body2d.bodyType = RigidbodyType2D.Static;
-            _animator.SetTrigger("die");
+            //m_body2d.bodyType = RigidbodyType2D.Static;
+            //_animator.SetTrigger("die");
         }
     }
 
