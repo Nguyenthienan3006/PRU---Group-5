@@ -46,13 +46,15 @@ public class Health : MonoBehaviour
         {
             if (!dead)
             {
-                //anim.SetBool("grounded", true);
-                rb.bodyType = RigidbodyType2D.Static;
-                anim.SetTrigger("die");
-                
                 //Deactivate all attached component classes
                 foreach (Behaviour component in components)
-                    component.enabled = false;              
+                    component.enabled = false;
+                
+                //anim.SetBool("grounded", true);
+                //rb.bodyType = RigidbodyType2D.Static;
+                anim.SetTrigger("die");
+                
+                           
                 
                 dead = true;
                 SoundManager.instance.PlaySound(deathSound);
