@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour
 {
@@ -34,7 +35,8 @@ public class Health : MonoBehaviour
     public void TakeDamage(float _damage)
     {
         if (invulnerable) return;
-        currentHealth = Mathf.Clamp(currentHealth - _damage, 0, startingHealth);
+
+        currentHealth = currentHealth - _damage;
 
         if (currentHealth > 0)
         {
@@ -54,8 +56,6 @@ public class Health : MonoBehaviour
                 //rb.bodyType = RigidbodyType2D.Static;
                 anim.SetTrigger("die");
                 
-                           
-                
                 dead = true;
                 SoundManager.instance.PlaySound(deathSound);
             }
@@ -63,7 +63,7 @@ public class Health : MonoBehaviour
     }
     public void AddHealth(float _value)
     {
-        currentHealth = Mathf.Clamp(currentHealth + _value, 0, startingHealth);
+        currentHealth = currentHealth + _value;
     }
     private IEnumerator Invunerability()
     {
@@ -98,4 +98,10 @@ public class Health : MonoBehaviour
         foreach (Behaviour component in components)
             component.enabled = true;
     }
+
+    private void RestartLevel()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
 }
