@@ -126,6 +126,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bone
       objectReference: {fileID: 0}
+    - target: {fileID: 4363006440627812774, guid: a581d00efbc9d9a43892abca277eef2b, type: 3}
+      propertyPath: m_Size.x
+      value: 0.16251692
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363006440627812774, guid: a581d00efbc9d9a43892abca277eef2b, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.057387818
+      objectReference: {fileID: 0}
     - target: {fileID: 4363006440627812775, guid: a581d00efbc9d9a43892abca277eef2b, type: 3}
       propertyPath: components.Array.data[1]
       value: 
@@ -173,6 +181,10 @@ PrefabInstance:
     - target: {fileID: 4363006440627812824, guid: a581d00efbc9d9a43892abca277eef2b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4363006440627812825, guid: a581d00efbc9d9a43892abca277eef2b, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a581d00efbc9d9a43892abca277eef2b, type: 3}

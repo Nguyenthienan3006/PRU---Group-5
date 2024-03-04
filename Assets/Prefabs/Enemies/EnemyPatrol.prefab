@@ -126,6 +126,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Goblin
       objectReference: {fileID: 0}
+    - target: {fileID: 1443402733297057917, guid: 7cbcdae10c7af6646b0faeeb7b8606cb, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1443402733297057918, guid: 7cbcdae10c7af6646b0faeeb7b8606cb, type: 3}
       propertyPath: m_RootOrder
       value: 0
