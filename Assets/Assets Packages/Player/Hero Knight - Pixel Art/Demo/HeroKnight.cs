@@ -17,6 +17,7 @@ public class HeroKnight : MonoBehaviour
     [Header("Enemy Layer")]
     [SerializeField] private LayerMask enemyLayer;
 
+    private Vector3 initScale;
     private Health enemyHealth;
     private Animator animator;
     private Rigidbody2D rigidbody;
@@ -39,6 +40,7 @@ public class HeroKnight : MonoBehaviour
     // Use this for initialization
     void Start()
     {
+        initScale = transform.localScale;
         animator = GetComponent<Animator>();
         rigidbody = GetComponent<Rigidbody2D>();
         groundSensor = transform.Find("GroundSensor").GetComponent<Sensor_HeroKnight>();
@@ -83,13 +85,15 @@ public class HeroKnight : MonoBehaviour
         // Swap direction of sprite depending on walk direction
         if (inputX > 0)
         {
-            GetComponent<SpriteRenderer>().flipX = false;
+            transform.localScale = new Vector3(Mathf.Abs(initScale.x) * 1,
+            initScale.y, initScale.z);
             facingDirection = 1;
         }
 
         else if (inputX < 0)
         {
-            GetComponent<SpriteRenderer>().flipX = true;
+            transform.localScale = new Vector3(Mathf.Abs(initScale.x) * -1,
+            initScale.y, initScale.z);
             facingDirection = -1;
         }
 
