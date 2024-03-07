@@ -7,19 +7,17 @@ public class PlayerRespawn : MonoBehaviour
     [SerializeField] private AudioClip checkpoint;
     private Transform currentCheckpoint;
     private Health playerHealth;
-    //private UIManager uiManager;
 
     private void Awake()
     {
         playerHealth = GetComponent<Health>();
-        //uiManager = FindObjectOfType<UIManager>();
     }
 
     public void RespawnCheck()
     {
         if (currentCheckpoint == null)
         {
-            //uiManager.GameOver();
+            playerHealth.RestartLevel();
             return;
         }
 
@@ -33,7 +31,7 @@ public class PlayerRespawn : MonoBehaviour
             currentCheckpoint = collision.transform;
             SoundManager.instance.PlaySound(checkpoint);
             collision.GetComponent<Collider2D>().enabled = false;
-            collision.GetComponent<Animator>().SetTrigger("activated");
+            collision.GetComponent<Animator>().SetTrigger("activate");
         }
     }
 }

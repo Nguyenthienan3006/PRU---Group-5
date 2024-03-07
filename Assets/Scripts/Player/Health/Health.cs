@@ -99,7 +99,7 @@ public class Health : MonoBehaviour
             component.enabled = true;
     }
 
-    private void RestartLevel()
+    public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
