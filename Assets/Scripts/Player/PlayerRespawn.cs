@@ -15,20 +15,28 @@ public class PlayerRespawn : MonoBehaviour
 
     public void RespawnCheck()
     {
+        playerHealth.Respawn();
+
         if (currentCheckpoint == null)
         {
-            playerHealth.RestartLevel();
-            return;
+            transform.position = GameObject.FindGameObjectsWithTag("StartPoint")[0].transform.position;
+        } 
+        else
+        {
+            transform.position = currentCheckpoint.position; //Move player to checkpoint location
         }
-
-        playerHealth.Respawn(); //Restore player health and reset animation
-        transform.position = currentCheckpoint.position; //Move player to checkpoint location
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Checkpoint")
         {
             currentCheckpoint = collision.transform;
+            SoundManager.instance.PlaySound(checkpoint);
+            collision.GetComponent<Collider2D>().enabled = false;
+            collision.GetComponent<Animator>().SetTrigger("activate");
+        }
+        else if (collision.gameObject.tag == "StartPoint")
+        {
             SoundManager.instance.PlaySound(checkpoint);
             collision.GetComponent<Collider2D>().enabled = false;
             collision.GetComponent<Animator>().SetTrigger("activate");

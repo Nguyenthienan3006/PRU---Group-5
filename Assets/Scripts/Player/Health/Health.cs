@@ -25,6 +25,8 @@ public class Health : MonoBehaviour
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip hurtSound;
 
+    private EnemiesCount enemiesCount;
+
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -52,12 +54,11 @@ public class Health : MonoBehaviour
                 foreach (Behaviour component in components)
                     component.enabled = false;
                 
-                //anim.SetBool("grounded", true);
-                //rb.bodyType = RigidbodyType2D.Static;
                 anim.SetTrigger("die");
                 
                 dead = true;
                 SoundManager.instance.PlaySound(deathSound);
+                enemiesCount.EnemyKilled();
             }
         }
     }
@@ -87,7 +88,7 @@ public class Health : MonoBehaviour
     //Respawn
     public void Respawn()
     {
-        AddHealth(startingHealth);
+        currentHealth = 3;
         anim.ResetTrigger("die");
         anim.Play("Idle");
         StartCoroutine(Invunerability());

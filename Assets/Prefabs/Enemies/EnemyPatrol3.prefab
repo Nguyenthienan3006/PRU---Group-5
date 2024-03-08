@@ -472,8 +472,8 @@ MonoBehaviour:
   components:
   - {fileID: 7719049526888614176}
   - {fileID: 7719049527813882543}
-  deathSound: {fileID: 8300000, guid: dd6d9531e2f11434f9add7e7e09cd332, type: 3}
-  hurtSound: {fileID: 8300000, guid: 32ff513695816ae4fb9ecd5c1bc67120, type: 3}
+  deathSound: {fileID: 8300000, guid: e14e1291c00261447838e1b8cef3fa9f, type: 3}
+  hurtSound: {fileID: 8300000, guid: e14e1291c00261447838e1b8cef3fa9f, type: 3}
 --- !u!114 &7719049526888614176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -554,7 +554,7 @@ GameObject:
   - component: {fileID: 7719049527813882543}
   m_Layer: 0
   m_Name: EnemyPatrol3
-  m_TagString: Untagged
+  m_TagString: Enemies
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
