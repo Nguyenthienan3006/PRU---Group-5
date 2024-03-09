@@ -15,6 +15,7 @@ public class MeleeEnemy : MonoBehaviour
     [Header("Player Layer")]
     [SerializeField] private LayerMask playerLayer;
     private float cooldownTimer = Mathf.Infinity;
+    public Animator otherObjectAnimator;
 
     //References
     private Animator anim;
@@ -24,8 +25,10 @@ public class MeleeEnemy : MonoBehaviour
     Transform player;
     private void Awake()
     {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
         anim = GetComponent<Animator>();
         enemyPatrol = GetComponentInParent<EnemyPatrol>();
+        otherObjectAnimator = GameObject.FindGameObjectWithTag("Player").GetComponent<Animator>();
     }
 
     private void Update()
@@ -79,6 +82,15 @@ public class MeleeEnemy : MonoBehaviour
 
         return hit.collider != null;
     }
+
+    private bool CheckPlayerBlock()
+    {
+        string currentAnimation = otherObjectAnimator.GetCurrentAnimatorClipInfo(0)[0].clip.name;
+        if (currentAnimation.Equals("HeroKnight_Block"))
+            return true;
+        return false;
+    }
+
     private void OnDrawGizmos()
     {
         Gizmos.color = Color.red;
@@ -88,13 +100,12 @@ public class MeleeEnemy : MonoBehaviour
 
     private void DamagePlayer()
     {
-        if (PlayerInSight())
+        if (PlayerInSight() && !CheckPlayerBlock())
             playerHealth.TakeDamage(damage);
     }
 
     private void TelePosition()
     {
-        player = GameObject.FindGameObjectWithTag("Player").transform;
         transform.position = player.position;
         anim.SetBool("tele", false);
 
@@ -107,7 +118,7 @@ public class MeleeEnemy : MonoBehaviour
 
     private void DamagePlayerEnraged()
     {
-        if (PlayerInSight())
+        if (PlayerInSight() && !CheckPlayerBlock())
             playerHealth.TakeDamage(damageEnranged);
     }
 }

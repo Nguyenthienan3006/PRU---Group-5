@@ -19,7 +19,7 @@ public class PlayerRespawn : MonoBehaviour
 
         if (currentCheckpoint == null)
         {
-            transform.position = GameObject.FindGameObjectsWithTag("StartPoint")[0].transform.position;
+            transform.position = GameObject.FindGameObjectWithTag("StartPoint").transform.position;
         } 
         else
         {
