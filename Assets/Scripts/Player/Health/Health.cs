@@ -63,8 +63,11 @@ public class Health : MonoBehaviour
                 if (gameObject.tag != null && !gameObject.CompareTag("Player"))
                 {
                     GameObject myObject = GameObject.Find("EnemiesCount");
-                    var enemiesCount = myObject.GetComponent<EnemiesCount>();
-                    enemiesCount.EnemyKilled();
+                    if (myObject != null)
+                    {
+                        var enemiesCount = myObject.GetComponent<EnemiesCount>();
+                        enemiesCount.EnemyKilled();
+                    }
                 }
             }
         }
