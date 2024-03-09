@@ -12,7 +12,7 @@ public class EnemyHealthBar : MonoBehaviour
     {
         if (playerHealth.currentHealth < health.Length)
         {
-            for (int i = health.Length - 1; i > playerHealth.currentHealth; i--)
+            for (int i = health.Length - 1; i >= playerHealth.currentHealth; i--)
             {
                 health[i].GetComponent<SpriteRenderer>().color = Color.black;
             }

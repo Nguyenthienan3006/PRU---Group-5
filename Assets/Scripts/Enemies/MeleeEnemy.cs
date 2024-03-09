@@ -6,6 +6,7 @@ public class MeleeEnemy : MonoBehaviour
     [SerializeField] private float attackCooldown;
     [SerializeField] private float range;
     [SerializeField] private int damage;
+    [SerializeField] private float damageEnranged;
 
     [Header("Collider Parameters")]
     [SerializeField] private float colliderDistance;
@@ -19,7 +20,8 @@ public class MeleeEnemy : MonoBehaviour
     private Animator anim;
     private Health playerHealth;
     private EnemyPatrol enemyPatrol;
-
+    private int tele = 0;
+    Transform player;
     private void Awake()
     {
         anim = GetComponent<Animator>();
@@ -30,16 +32,37 @@ public class MeleeEnemy : MonoBehaviour
     {
         cooldownTimer += Time.deltaTime;
 
-        //Attack only when player in sight?
-        if (PlayerInSight())
+        if(anim.GetBool("isEnraged") == true)
         {
-            if (cooldownTimer >= attackCooldown)
+            if (PlayerInSight())
             {
-                cooldownTimer = 0;
-                anim.SetTrigger("meleeAttack");
+                if (cooldownTimer >= attackCooldown)
+                {
+                    cooldownTimer = 0;
+                    anim.SetTrigger("meleeAttackEnraged");
+
+                }
             }
         }
+        else
+        {
+            //Attack only when player in sight?
+            if (PlayerInSight())
+            {
+                if (cooldownTimer >= attackCooldown)
+                {
+                    cooldownTimer = 0;
+                    anim.SetTrigger("meleeAttack");
 
+                }
+            }
+        }
+        
+        if(tele == 3)
+        {
+            tele = 0;
+            anim.SetBool("tele",true);          
+        }
         if (enemyPatrol != null)
             enemyPatrol.enabled = !PlayerInSight();
     }
@@ -67,5 +90,24 @@ public class MeleeEnemy : MonoBehaviour
     {
         if (PlayerInSight())
             playerHealth.TakeDamage(damage);
+    }
+
+    private void TelePosition()
+    {
+        player = GameObject.FindGameObjectWithTag("Player").transform;
+        transform.position = player.position;
+        anim.SetBool("tele", false);
+
+    }
+
+    private void teleTime()
+    {
+        tele=tele+1;
+    }
+
+    private void DamagePlayerEnraged()
+    {
+        if (PlayerInSight())
+            playerHealth.TakeDamage(damageEnranged);
     }
 }

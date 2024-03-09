@@ -7,6 +7,7 @@ TagManager:
   - Trap
   - Enemies
   - Checkpoint
+  - StartPoint
   layers:
   - Default
   - TransparentFX

@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Scene 3 - Secret Castle.unity
     guid: f2120731c167b44499fb4a0263fa8368
+  - enabled: 1
+    path: Assets/Scenes/End Menu.unity
+    guid: 2d104ede975a74b41961ef595a1b29ed
   m_configObjects: {}

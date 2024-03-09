@@ -100,6 +100,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   victorySound: {fileID: 8300000, guid: 6fdb2d3c4f21a8f4e9e8ac556518083a, type: 3}
+  warning: {fileID: 0}
 --- !u!95 &2459965954194469943
 Animator:
   serializedVersion: 5
@@ -134,7 +135,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.58792305}
+  m_Offset: {x: 0.19825745, y: 3.620998}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -145,5 +146,5 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4345093, y: 2.824154}
+  m_Size: {x: 1.8310242, y: 11.241996}
   m_EdgeRadius: 0
