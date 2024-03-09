@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerRespawn : MonoBehaviour
 {
@@ -16,6 +17,10 @@ public class PlayerRespawn : MonoBehaviour
     public void RespawnCheck()
     {
         playerHealth.Respawn();
+        if(SceneManager.GetActiveScene().name == "Scene 3 - Secret Castle")
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        }
 
         if (currentCheckpoint == null)
         {

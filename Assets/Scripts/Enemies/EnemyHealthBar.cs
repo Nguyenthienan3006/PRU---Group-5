@@ -10,7 +10,7 @@ public class EnemyHealthBar : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (playerHealth.currentHealth < health.Length && playerHealth.currentHealth > 0)
+        if (playerHealth.currentHealth < health.Length && playerHealth.currentHealth >= 0)
         {
             for (int i = health.Length - 1; i >= playerHealth.currentHealth; i--)
             {
