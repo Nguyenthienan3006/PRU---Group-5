@@ -24,7 +24,7 @@ public class EnemiesCount : MonoBehaviour
     public void EnemyKilled()
     {
         GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
-        killedEnemies = totalEnemies - enemies.Length;
+        killedEnemies++;
         enemiesCountText.text = "Killed Enemies: " + killedEnemies.ToString() + "/" + totalEnemies.ToString();   
     }
 

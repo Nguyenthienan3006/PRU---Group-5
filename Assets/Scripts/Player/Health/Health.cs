@@ -25,8 +25,6 @@ public class Health : MonoBehaviour
     [SerializeField] private AudioClip deathSound;
     [SerializeField] private AudioClip hurtSound;
 
-    private EnemiesCount enemiesCount;
-
     private void Awake()
     {
         currentHealth = startingHealth;
@@ -59,10 +57,15 @@ public class Health : MonoBehaviour
                     component.enabled = false;
                 
                 anim.SetTrigger("die");
-                
-                dead = true;
                 SoundManager.instance.PlaySound(deathSound);
-                enemiesCount.EnemyKilled();
+                dead = true;
+
+                if (gameObject.tag != null && !gameObject.CompareTag("Player"))
+                {
+                    GameObject myObject = GameObject.Find("EnemiesCount");
+                    var enemiesCount = myObject.GetComponent<EnemiesCount>();
+                    enemiesCount.EnemyKilled();
+                }
             }
         }
     }
@@ -70,6 +73,7 @@ public class Health : MonoBehaviour
     {
         currentHealth = currentHealth + _value;
     }
+
     private IEnumerator Invunerability()
     {
         invulnerable = true;
@@ -84,6 +88,7 @@ public class Health : MonoBehaviour
         Physics2D.IgnoreLayerCollision(10, 11, false);
         invulnerable = false;
     }
+
     private void Deactivate()
     {
         gameObject.SetActive(false);
