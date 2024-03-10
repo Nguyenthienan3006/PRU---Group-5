@@ -4,22 +4,46 @@ using UnityEngine;
 
 public class FallingPlatform : MonoBehaviour
 {
-    [SerializeField] private float fallDelay = 1f;
-    [SerializeField] private float destroyDelay = 2f;
-    [SerializeField] private Rigidbody2D rb;
+    public GameObject collapsedBridge; // GameObject của cây cầu bị sập
+    public float collapseSpeed = 5f; // Tốc độ sập của cây cầu
+    public float destroyDelay = 2f; // Thời gian chờ trước khi cây cầu bị phá hủy
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private bool isPlayerPassed = false;
+    private bool isCollapsedBridgeMoved = false;
+
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (other.CompareTag("Player")) // Kiểm tra nếu player đi qua
         {
-            StartCoroutine(Fall());
+            isPlayerPassed = true;
+            CollapseBridge();
         }
     }
 
-    private IEnumerator Fall()
+    private void CollapseBridge()
     {
-        yield return new WaitForSeconds(fallDelay);
-        rb.bodyType = RigidbodyType2D.Dynamic;
-        Destroy(gameObject, destroyDelay);
+        if (isPlayerPassed)
+        {
+            // Ẩn cây cầu gốc
+            gameObject.SetActive(false);
+
+            // Hiện cây cầu đã sập
+            collapsedBridge.SetActive(true);
+
+            // Di chuyển cây cầu đã sập xuống dưới
+            collapsedBridge.transform.Translate(Vector2.down * collapseSpeed * Time.deltaTime);
+
+            // Kiểm tra nếu cây cầu đã di chuyển xuống đủ xa
+            if (!isCollapsedBridgeMoved && collapsedBridge.transform.position.y < -10f)
+            {
+                isCollapsedBridgeMoved = true;
+                Invoke("DestroyBridge", destroyDelay); // Gọi hàm DestroyBridge sau một khoảng thời gian destroyDelay giây
+            }
+        }
+    }
+
+    private void DestroyBridge()
+    {
+        Destroy(collapsedBridge); // Phá hủy cây cầu đã sập
     }
 }

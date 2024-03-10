@@ -158,7 +158,7 @@ public class HeroKnight : MonoBehaviour
 
 
         //Jump
-        else if (Input.GetKeyDown("space") && grounded && !rolling)
+        else if ((Input.GetKeyDown("space") || Input.GetKeyDown(KeyCode.W) || Input.GetKeyDown(KeyCode.UpArrow)) && grounded && !rolling)
         {
             animator.SetTrigger("Jump");
             grounded = false;
