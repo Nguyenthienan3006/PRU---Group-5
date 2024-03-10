@@ -19,7 +19,7 @@ public class Health : MonoBehaviour
 
     [Header("Components")]
     [SerializeField] private Behaviour[] components;
-    private bool invulnerable;
+    public bool invulnerable =false;
 
     [Header("Sound Effects")]
     [SerializeField] private AudioClip deathSound;
