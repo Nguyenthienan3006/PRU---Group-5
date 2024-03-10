@@ -15,9 +15,6 @@ public class MeleeEnemy1 : MonoBehaviour
     [SerializeField] private LayerMask playerLayer1;
     private float cooldownTimer1 = Mathf.Infinity;
 
-    [Header("Heart Prefab")]
-    [SerializeField] private GameObject heartPrefab; // Prefab của trái tim
-
     // References
     private Animator anim1;
     private Health playerHealth1;
@@ -72,12 +69,6 @@ public class MeleeEnemy1 : MonoBehaviour
         if (PlayerInSight1())
         {
             playerHealth1.TakeDamage(damage1);
-
-            // Drop heart when enemy is killed
-            if (playerHealth1.currentHealth <= 0)
-            {
-                Instantiate(heartPrefab, transform.position, Quaternion.identity);
-            }
         }
     }
 }

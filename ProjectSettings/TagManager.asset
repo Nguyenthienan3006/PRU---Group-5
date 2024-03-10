@@ -8,6 +8,7 @@ TagManager:
   - Enemies
   - Checkpoint
   - StartPoint
+  - Vines
   layers:
   - Default
   - TransparentFX
